@@ -1,0 +1,8 @@
+library(methods)
+branch_data <- read.csv("profile_information_branch.csv")
+library(ggplot2)
+p0 <- ggplot(data=branch_data,aes(x=branch_number,y=branch_bias))
+p1 <- p0+geom_line(color=branch_data$case_number)+facet_grid(case_number~.)
+p2 <- p0+geom_bar(stat="identity",color=branch_data$case_number,fill=branch_data$case_number)+facet_grid(case_number~.)
+p1
+p2

@@ -1,0 +1,5 @@
+lib_test.so    Read,Execute   /home/nikhil/CStest
+test   Write,Execute /home/nikhil/CStest
+Enclave.h None /home/nikhil/CStest/
+a1.pdf Read,Write,Execute  /home/nikhil/CStest
+libm.a Read /home/nikhil/CStest

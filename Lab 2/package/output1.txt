@@ -1,0 +1,10 @@
+                                 OUTPUTS
+
+Output when runme1 was run normally( without any redirections etc.):
+  aiewifwcnskosewqiuu2139r283dj akdsasn2137i28197gsajdaujk218s37218r9qdsa1dmds,
+
+Output when stdout was redirected to /dev/null and only stderr was displayed:
+  four sigusr1
+
+Output when runme2 was send signals and output at fd 4 was redirected to stdout while others were discarded:
+  On sending signal 10       :       CS251 is really awesome!

@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+fhand	/home/nikhil/CS251/Lab9/word_checker.py	/^fhand = open("new_Decrypted_message","r")$/;"	variable	line:1
+message	/home/nikhil/CS251/Lab9/word_checker.py	/^message = fhand.read()$/;"	variable	line:2
+fhand	/home/nikhil/CS251/Lab9/word_checker.py	/^fhand = open("dictionary","r")$/;"	variable	line:5
+dictionary	/home/nikhil/CS251/Lab9/word_checker.py	/^dictionary = list()$/;"	variable	line:6
+message	/home/nikhil/CS251/Lab9/word_checker.py	/^message = message.strip().split()$/;"	variable	line:12
+counter	/home/nikhil/CS251/Lab9/word_checker.py	/^counter = 0$/;"	variable	line:13
+flag	/home/nikhil/CS251/Lab9/word_checker.py	/^    flag = True$/;"	variable	line:17
+last_char	/home/nikhil/CS251/Lab9/word_checker.py	/^        last_char = ord(message[i][-1])$/;"	variable	line:19
+flag	/home/nikhil/CS251/Lab9/word_checker.py	/^            flag = False$/;"	variable	line:21
+counter	/home/nikhil/CS251/Lab9/word_checker.py	/^        counter = counter + 1$/;"	variable	line:27
+percentage	/home/nikhil/CS251/Lab9/word_checker.py	/^percentage = counter*100\/len(message)$/;"	variable	line:31

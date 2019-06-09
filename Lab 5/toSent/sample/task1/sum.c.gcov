@@ -1,0 +1,40 @@
+        -:    0:Source:sum.c
+        -:    0:Graph:sum.gcno
+        -:    0:Data:sum.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include<stdio.h>
+        -:    2:#include<stdlib.h>
+        -:    3:
+function main called 1 returned 100% blocks executed 100%
+        1:    4:int main(){
+        -:    5:
+        1:    6:    int a=-5,i,sum=0,even=0;
+       12:    7:    while (a < 5){
+branch  0 taken 91%
+branch  1 taken 9% (fallthrough)
+       10:    8:        a++;
+       10:    9:        sum = even = 0;
+       10:   10:        if (a < 0 ){
+branch  0 taken 40% (fallthrough)
+branch  1 taken 60%
+        4:   11:            printf("Should be a positive number\n");
+call    0 returned 100%
+        4:   12:            continue;
+        -:   13:        }
+        -:   14:
+       21:   15:        for(i = 1; i <= a; i++){
+branch  0 taken 71%
+branch  1 taken 29% (fallthrough)
+       15:   16:            sum += i;
+       15:   17:            if (i % 4 == 0){
+branch  0 taken 13% (fallthrough)
+branch  1 taken 87%
+        2:   18:                even++;
+        -:   19:            }
+        -:   20:        }
+        6:   21:        printf("sum = %d\n",sum);
+call    0 returned 100%
+        -:   22:    }
+        1:   23:    return 0;
+        -:   24:}

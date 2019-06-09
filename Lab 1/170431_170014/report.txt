@@ -1,0 +1,9 @@
+--Un tarred using tar
+--ran create_asgn
+--Cant do ls in assign : Permission was 331
+--chmod 744 asgn
+-- ./run_me on link Permission denied. No x bit
+--chmod 744 on bin/.run_me
+--./run_me on link : Error: Directory "output" does not exist! Create one.
+--mkdir output inside asgn
+--Obtained code.html Permission 664

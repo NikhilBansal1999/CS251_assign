@@ -1,0 +1,15 @@
+                                     SAMPLE OUTPUT OF SCRIPT FILE
+
+
+/bin/sh,2578,lrwxrwxrwx,1
+/usr/bin/dbus-daemon,1025,-rwxr-xr-x,1
+/usr/bin/dbus-daemon,2203,-rwxr-xr-x,1
+/usr/bin/gnome-keyring-daemon,1962,-rwxr-xr-x,1
+/usr/bin/gnome-software,2401,-rwxr-xr-x,1
+/usr/bin/ibus-daemon,2098,-rwxr-xr-x,1
+/usr/bin/mongod,1018,-rwxr-xr-x,1
+/usr/bin/pulseaudio,2290,-rwxr-xr-x,1
+/usr/bin/uml_switch,1201,-rwxr-xr-x,1
+/usr/bin/unity-scope-loader,9627,-rwxr-xr-x,1
+/usr/bin/whoopsie,1602,-rwxr-xr-x,1
+/usr/bin/zeitgeist-daemon,2582,-rwxr-xr-x,1

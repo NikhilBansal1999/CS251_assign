@@ -1,0 +1,11 @@
+/bin/sh,2663,lrwxrwxrwx,1
+/usr/bin/dbus-daemon,1035,-rwxr-xr-x,1
+/usr/bin/dbus-daemon,2199,-rwxr-xr-x,1
+/usr/bin/gnome-keyring-daemon,1905,-rwxr-xr-x,1
+/usr/bin/gnome-software,2369,-rwxr-xr-x,1
+/usr/bin/ibus-daemon,2092,-rwxr-xr-x,1
+/usr/bin/mongod,1037,-rwxr-xr-x,1
+/usr/bin/pulseaudio,2276,-rwxr-xr-x,1
+/usr/bin/uml_switch,1260,-rwxr-xr-x,1
+/usr/bin/whoopsie,1686,-rwxr-xr-x,1
+/usr/bin/zeitgeist-daemon,2672,-rwxr-xr-x,1

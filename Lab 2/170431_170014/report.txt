@@ -1,0 +1,59 @@
+
+                                          TASK 1
+
+--   First tried running the runme1 normally to see what the output really was. Got the below mentioned output. (./runme1 in its directory)
+     aiewifwcnskosewqiuu2139r283dj akdsasn2137i28197gsajdaujk218s37218r9qdsa1dmds,
+
+--   Next ran the following command : ./runme1 > /dev/null
+     Explanation: The above command runs runme1 and discards its output on stdout. The output is redirected to /dev/null.
+                  However the output to stderr is still displayed on the terminal.
+     Output:      four sigusr1
+
+--   Ran runme2 using the command :   ./runme2 4>&1 &
+     Explanation: Ran runme2 in background, redirecting the message on file descriptor 4 to stdout. The PID of runme program
+                  was displayed on terminal which is used to send signals to the program.
+     Output:      The job number and PID of runme2 are given as output. Since the process is running in the background,
+	                the command prompt is also seen
+
+     Next ran: kill -l
+     Output:   The list of signals with their numbers is outputted. The signal number for sigusr1 is 10.
+
+     Next ran: kill -10 PID (where PID is the one outputted above)
+     Output:   CS251 is really awesome!
+     The program keeps running in background.
+
+     Next ran: kill -9 PID
+     Explanation: runme2 is terminated.
+
+
+                                          TASK 2
+
+--   All the commands used are explained below:
+  -  (ps -ef | sed 's/ \{1,\}/,/g' | cut -d "," -f 2,8 | grep -e ",/bin" -e ",/usr/bin") > process.txt
+     EXPLANATION: ps -ef shows all running processes. It's output is piped through sed which cleanly formats the output.
+                  All the field in the output of ps is transformed into comma separated fields by sed. Sed looks for sequence
+                  of blank spaces and replaces them by a comma. The result is then piped to cut which separates the different
+                  comma separated fields and keeps 2nd and 8th field containing PID and Process name respectively. grep then
+                  selects all process from /bin and /usr/bin directory. This final output is stored in process.txt
+
+  -  (ls -l /bin/* | sed 's/ \{1,\}/,/g' | cut -d ',' -f 1,2,9) > files.txt
+     (ls -l /usr/bin/* | sed 's/ \{1,\}/,/g' | cut -d ',' -f 1,2,9) >> files.txt
+     EXPLANATION: ls -l /bin/* and ls -l /usr/bin/* lists all files in these two directory. sed is again used to format the
+                  the output of "ls -l" into comma separated fields same way as explained above. cut is then used to separate
+                  the comma separated fields and keep 1st, 2nd and 9th field having file permission, no. of links, file name
+                  respectively. This final output is then stored in files.txt. >> appends the output of next ls insted of
+                  overwriting the file.
+
+  -  sort -k 2 -t, process.txt > process_sort.txt
+     sort -k 3 -t, files.txt > files_sort.txt
+     EXPLANATION: the ouput obtained by the above commands is sorted to be used in join command. Both files are sorted on the
+                  basis of file names. -k is used to select the field containing file names separated by comma (specified using -t).
+                  The sorted outputs are stored.
+
+  -  join files_sort.txt process_sort.txt -1 3 -2 2 -t ',' -o 1.3,2.1,1.1,1.2> process_report.csv
+     EXPLANATION: The sorted files are now joined on file names. -1 and -2 specifies the field number on which the join
+                  is to operate. -t is used to set comma as delimeter. -o specifies the output format i.e.
+                  program_name, PID, permissions and no. of links
+
+  -  rm files.txt files_sort.txt process.txt process_sort.txt
+     EXPLANATION: Remove all intermediate files.

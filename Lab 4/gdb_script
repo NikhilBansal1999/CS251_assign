@@ -1,0 +1,47 @@
+set breakpoint pending on
+b add
+b subtract
+b multiply
+b divide
+b printf
+b fopen
+b feof
+b fscanf
+b fclose
+command 5
+i all-registers
+c
+end
+command 6
+i all-registers
+c
+end
+command 7
+i all-registers
+c
+end
+command 8
+i all-registers
+c
+end
+command 9
+i all-registers
+c
+end
+command 1
+i all-registers
+c
+end
+command 2
+i all-registers
+c
+end
+command 3
+i all-registers
+c
+end
+command 4
+i all-registers
+c
+end
+r input.txt

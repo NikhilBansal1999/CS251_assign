@@ -1,0 +1,14 @@
+			Call graph
+
+
+granularity: each sample hit covers 2 byte(s) for 0.08% of 11.90 seconds
+
+index % time    self  children    called     name
+                3.22    0.00 1999999985/1999999985     partition (3)
+[4]     27.0    3.22    0.00 1999999985         swap [4]
+-----------------------------------------------
+
+Index by function name
+
+   (5) frame_dummy             (3) partition               (2) quickSort
+   (1) main                    (6) printArray              [4] swap

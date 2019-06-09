@@ -1,0 +1,6 @@
+Func1,time1,Func2,time2
+partition,5.48,swap,3.22
+quickSort,2.81,main,0.08
+quickSort,2.81,partition,5.48
+main,0.08,quickSort,2.81
+main,0.08,printArray,0.00

@@ -1,0 +1,45 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+OLEV	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^#define OLEV /;"	macro	line:10	file:
+MAXALTDIFF	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^#define MAXALTDIFF /;"	macro	line:11	file:
+MINSEP	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^#define MINSEP /;"	macro	line:12	file:
+NOZCROSS	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^#define NOZCROSS /;"	macro	line:13	file:
+bool	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^typedef int bool;$/;"	typedef	line:16	file:
+Cur_Vertical_Sep	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^int Cur_Vertical_Sep;$/;"	variable	line:18
+High_Confidence	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^bool High_Confidence;$/;"	variable	line:19
+Two_of_Three_Reports_Valid	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^bool Two_of_Three_Reports_Valid;$/;"	variable	line:20
+Own_Tracked_Alt	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^int Own_Tracked_Alt;$/;"	variable	line:22
+Own_Tracked_Alt_Rate	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^int Own_Tracked_Alt_Rate;$/;"	variable	line:23
+Other_Tracked_Alt	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^int Other_Tracked_Alt;$/;"	variable	line:24
+Alt_Layer_Value	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^int Alt_Layer_Value;		\/* 0, 1, 2, 3 *\/$/;"	variable	line:26
+Positive_RA_Alt_Thresh	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^int Positive_RA_Alt_Thresh[4];$/;"	variable	line:27
+Up_Separation	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^int Up_Separation;$/;"	variable	line:29
+Down_Separation	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^int Down_Separation;$/;"	variable	line:30
+Other_RAC	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^int Other_RAC;			\/* NO_INTENT, DO_NOT_CLIMB, DO_NOT_DESCEND *\/$/;"	variable	line:33
+NO_INTENT	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^#define NO_INTENT /;"	macro	line:34	file:
+DO_NOT_CLIMB	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^#define DO_NOT_CLIMB /;"	macro	line:35	file:
+DO_NOT_DESCEND	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^#define DO_NOT_DESCEND /;"	macro	line:36	file:
+Other_Capability	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^int Other_Capability;		\/* TCAS_TA, OTHER *\/$/;"	variable	line:38
+TCAS_TA	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^#define TCAS_TA /;"	macro	line:39	file:
+OTHER	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^#define OTHER /;"	macro	line:40	file:
+Climb_Inhibit	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^int Climb_Inhibit;		\/* true\/false *\/$/;"	variable	line:42
+UNRESOLVED	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^#define UNRESOLVED /;"	macro	line:44	file:
+UPWARD_RA	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^#define UPWARD_RA /;"	macro	line:45	file:
+DOWNWARD_RA	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^#define DOWNWARD_RA /;"	macro	line:46	file:
+initialize	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^void initialize()$/;"	function	line:48
+ALIM	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^int ALIM ()$/;"	function	line:56
+Inhibit_Biased_Climb	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^int Inhibit_Biased_Climb ()$/;"	function	line:61
+Non_Crossing_Biased_Climb	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^bool Non_Crossing_Biased_Climb()$/;"	function	line:66
+Non_Crossing_Biased_Descend	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^bool Non_Crossing_Biased_Descend()$/;"	function	line:84
+Own_Below_Threat	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^bool Own_Below_Threat()$/;"	function	line:102
+Own_Above_Threat	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^bool Own_Above_Threat()$/;"	function	line:107
+alt_sep_test	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^int alt_sep_test()$/;"	function	line:112
+main	/home/nikhil/CS251/Lab 5/toSent/testcase/tcas.c	/^main(argc, argv)$/;"	function	line:144
+StaticFunc	/home/nikhil/CS251/Lab 5/toSent/sample/task2/sum.c	/^static void StaticFunc()$/;"	function	line:4	file:
+TestFunc	/home/nikhil/CS251/Lab 5/toSent/sample/task2/sum.c	/^void TestFunc()$/;"	function	line:10
+main	/home/nikhil/CS251/Lab 5/toSent/sample/task2/sum.c	/^int main()$/;"	function	line:19
+main	/home/nikhil/CS251/Lab 5/toSent/sample/task1/sum.c	/^int main(){$/;"	function	line:4
